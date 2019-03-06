@@ -1,13 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Doom fire</title>
+    <style>
+        
+
+        table {
+            border-collapse: collapse;
+            border: 1px solid black;
+        }
+
+        td {
+            width: 5px !important;
+            height: 5px;
+           /* border: 1px solid black;*/
+            text-align: center;
+            vertical-align: center;
+            font-family: monospace;
+            position: relative;
+        }
+
+        .pixel-index {
+            position: absolute;
+            display: inline-block;
+            top: 1px;
+            right: 1px;
+            color: gray;
+            font-size: 11px;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>Teste</h1>
     <div id="fireWrapper"></div>
     <script src="fire.js"></script>
 </body>
+
 </html>
